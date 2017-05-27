@@ -22,3 +22,14 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.topdiv{
+  height: 600px;
+  background: red;
+  width: 100%;
+}
+.bottomdiv{
+  height: 600px;
+background: yellow;
+width: 100%
+}
