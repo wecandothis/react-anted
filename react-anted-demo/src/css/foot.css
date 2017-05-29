@@ -1,0 +1,12 @@
+.footerdiv{
+
+	width: 100%;
+	height: 10vh;
+	box-shadow: 0 -5px 5px gray;
+	margin-top: 300px;
+}
+.footerdiv span{
+	margin:5%;
+	padding: 5%;
+	display: block;
+}

@@ -1,0 +1,34 @@
+.Tcontent{
+	width: 100%;
+	height: 50vh;
+     margin-top: 50px;
+}
+.contentcimg{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+
+}
+.contentcimg img{
+     position: relative;
+     width: 60%;
+     height: 50%;
+     box-shadow: -5px 5px 5px gray;
+     left: 30%;
+
+}
+
+
+.contentcp {
+     display: inline-block;
+     position: relative;
+     width: 40%;
+     height: 100%;
+     margin-left: 5%;
+   
+  
+    
+
+
+
+}

@@ -1,0 +1,39 @@
+.contenta{
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image:url(./../images/bgmv.png); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 90%;
+  position: relative;
+  z-index: -1;
+  display: block;
+  top: 0px;
+  left: 0px;
+
+}
+
+
+.contentachild  h2{
+    font-size: 40px;
+    position: absolute;
+    top: 3%;
+    left: 4%
+
+
+}
+
+.contentachild  p{
+   position: absolute;
+   left: 30%;
+   top: 30%;
+   font-size: 26px;
+
+	
+}
+.singlanimation{
+
+	position: absolute;
+	left: 30%;
+	top: 80%;
+}
