@@ -36,7 +36,7 @@ export default class Content extends Component {
          
           </p>
         </QueueAnim>
-        <TweenOne className="singlanimation"
+        <TweenOne className="singlanimation" key='img'
           animation={{ y: '-=20', yoyo: true, repeat: -1, duration: 1000 }}      
         >
         <img src={down} alt="" />
