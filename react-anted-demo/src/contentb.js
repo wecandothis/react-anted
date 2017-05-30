@@ -13,7 +13,7 @@ export default class Contentb extends Component{
           <TweenOne key="img" className="contentbimg"
            animation={{ x: '-=30', opacity: 0, type: 'from' }}
            resetStyleBool>
-            <h2>
+            <h2 id="secondmao">
              STORY 
             </h2>
             <img src={shop1} alt="" />
@@ -30,7 +30,7 @@ export default class Contentb extends Component{
             <p key="p" >
               云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
             </p>
-            <button>more</button>
+            
 
           </QueueAnim>
         </OverPack>

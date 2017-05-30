@@ -52,8 +52,9 @@ export default class Contentd extends Component{
             
             key="h1"
             reverseDelay={300}  >
-            <h2>HI</h2>
+            <h2 id="threemao">HI</h2>
                 <h1>客户案例</h1>
+                <button><a href="app2">more</a></button>
           </TweenOne>
           <TweenOneGroup
            className="contentdgroup"

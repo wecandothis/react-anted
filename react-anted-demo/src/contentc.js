@@ -24,7 +24,7 @@ export default class Contentc extends Component{
             <p key="p" >
               云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
             </p>
-            <button>more</button>
+            <button><a href="app1">more</a></button>
 
           </QueueAnim>
 

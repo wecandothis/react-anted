@@ -10,7 +10,9 @@
     "rc-scroll-anim": "^1.0.5",
     "rc-tween-one": "^1.2.5",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "autoprefixer": "7.1.0",

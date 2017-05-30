@@ -3,7 +3,6 @@ import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import './css/contenta.css'
-import shy from './images/shy.png'
 import down from './images/down.png'
 export default class Content extends Component {
  
@@ -23,7 +22,7 @@ export default class Content extends Component {
           key="text"
          
         >
-          <h2>DO IT</h2>
+          <h2 id="firstmao">DO IT</h2>
           
           <p>
            

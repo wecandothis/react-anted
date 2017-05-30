@@ -1,30 +1,26 @@
-import './css/header.css'
 import React, { Component } from 'react';
 import './App.css';
-import Header from './header'
-import Contenta from './contenta'
-import Contentb from './contentb'
-import Contentc from './contentc'
-import Contentd from './contentd'
-import Footer from './foot'
+import {BrowserRouter as Router,Route} from 'react-router-dom'
+import Contain from  './router'
+import App1 from './App1'
+import App2 from './App2' 
 class App extends Component {
-constructor(props) {
-    super(props);
-    this.animation = { left: '20%', yoyo: true, repeat: -1, duration: 1000 };
-  }
+  render(){
+    return (
+         <Router>
+            <div>
+            <Route exact path="/" component={Contain} />
+            <Route path="/app1" component={App1} />
+            <Route path="/app2" component={App2} />
 
-  render() {
-    return (<div className="content">
-     <Header key="header" />
-    <Contenta key="contenta" />
-    <Contentb key="contentb" />
-    <Contentc key="contentc" />
-    <Contentd key="contentd" />
-    <Footer key="footer" />
-      </div>
-    
-    );
+
+            </div>
+           
+
+         </Router>
+      )
   }
+  
 
 
 
