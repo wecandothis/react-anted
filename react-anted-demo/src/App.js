@@ -8,7 +8,7 @@ class App extends Component {
   render(){
     return (
          <Router>
-            <div>
+            <div className="Contain">
             <Route exact path="/" component={Contain} />
             <Route path="/app1" component={App1} />
             <Route path="/app2" component={App2} />

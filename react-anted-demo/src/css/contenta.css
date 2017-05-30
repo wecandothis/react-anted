@@ -26,14 +26,18 @@
 .contentachild  p{
    position: absolute;
    left: 30%;
-   top: 30%;
+   top: 45%;
    font-size: 26px;
+   display: inline-block;
+   width: 300px;
+   height: 400px;
+   text-shadow: gray 15px 5px 15px;
 
 	
 }
 .singlanimation{
 
 	position: absolute;
-	left: 30%;
-	top: 80%;
+	left: 40%;
+	top: 90%;
 }

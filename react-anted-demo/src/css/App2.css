@@ -1,0 +1,13 @@
+.appbcontain {
+  width: 100%;
+  height: 600px;
+  background: #333;
+  text-align: center;
+  color: white;
+  padding: 10px;
+
+}
+.appbcontain a{
+	color: white;
+	font-size: 26px;
+}

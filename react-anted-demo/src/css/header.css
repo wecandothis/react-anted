@@ -20,7 +20,7 @@ top: 0
 	position: absolute;
 	top:50%;
 	left: 30%;
-	font-size: 18px;
+	font-size: 26px;
 	margin-top: -14px;
 	
 	
@@ -41,6 +41,7 @@ top: 0
 	float: left;
     text-align: center;
     width: 100px;
+    font-size: 26px;
    
 
 

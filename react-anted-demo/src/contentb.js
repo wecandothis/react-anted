@@ -18,17 +18,16 @@ export default class Contentb extends Component{
             </h2>
             <img src={shop1} alt="" />
           </TweenOne>
-          <QueueAnim
-          animation={'right'}
-           className="contentbp"
+          <QueueAnim type={'right'}  className="contentbp"
             key="text"
             leaveReverse
             ease={['easeOutCubic', 'easeInCubic']}          >
             <h2 key="h1" >
-              企业资源管理
+              黄金时代
             </h2>
             <p key="p" >
-              云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
+             那一天我二十一岁，在我一生的黄金时代，我有好多奢望。我想爱，想吃，还想在一瞬间变成天上半明半暗的云，后来我才知道，生活就是个缓慢受锤的过程，人一天天老下去，奢望也一天天消逝，最后变得像挨了锤的牛一样。可是我过二十一岁生日时没有预见到这一点。我觉得自己会永远生猛下去，什么也锤不了我。
+
             </p>
             
 

@@ -14,13 +14,13 @@ import li8 from "./images/li8.jpg"
 
 export default class Contentd extends Component{
 
-  getChildrenToRender = (item, i) => {
+  getChildrenToRender = (item) => {
    
     return (<li
-      key={i}  
+      key={item.index}  
     >
       <div>
-        <span><img src={item.img} height="100%" /></span>
+        <span><img src={item.img} height="100%" alt=" " /></span>
         <p>{item.content}</p>
       </div>
     </li>);
@@ -34,14 +34,14 @@ export default class Contentd extends Component{
 
   render() {
     const dataArray = [
-      { img: li1, content: 'Ant Design' },
-      { img: li2, content: 'Ant Motion' },
-      { img: li3, content: 'Ant Design' },
-      { img: li4, content: 'Ant Motion' },
-      { img: li5, content: 'Ant Design' },
-      { img: li6, content: 'Ant Motion' },
-      { img: li7, content: 'Ant Design' },
-      { img: li8, content: 'Ant Motion' },
+      { img: li1, content: '风华正茂',index:'1' },
+      { img: li2, content: '风华正茂',index:'2' },
+      { img: li3, content: '风华正茂',index:'3' },
+      { img: li4, content: '风华正茂',index:'4' },
+      { img: li5, content: '器宇轩昂',index:'5' },
+      { img: li6, content: '器宇轩昂',index:'6' },
+      { img: li7, content: '器宇轩昂',index:'7'},
+      { img: li8, content: '器宇轩昂',index:'8'},
     ];
     const childrenToRender = dataArray.map(this.getChildrenToRender);
     return (
@@ -53,8 +53,8 @@ export default class Contentd extends Component{
             key="h1"
             reverseDelay={300}  >
             <h2 id="threemao">HI</h2>
-                <h1>客户案例</h1>
-                <button><a href="app2">more</a></button>
+                <h1>那些花儿一样的人</h1>
+               <span><a href="app2"> see other more</a></span> 
           </TweenOne>
           <TweenOneGroup
            className="contentdgroup"
